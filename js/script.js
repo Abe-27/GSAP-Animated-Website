@@ -63,7 +63,7 @@ function preloader(){
 var tl1 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page2",
-    start:"0% 80%",
+    start:"0% 90%",
     end:"50% 50%",
     scrub:2
   }
@@ -74,10 +74,10 @@ tl1.to("#page1 > #face1 > #display > #display2 > img",{
     rotate:"10deg"
 }, "lorep")
 
-tl1.from("#page2 > #face2",{
-  opacity:0,
-  duration:0.5
-}, "lorep")
+// tl1.from("#page2 > #face2",{
+//   opacity:0,
+//   duration:0.5
+// }, "lorep")
 
 var tl2 = gsap.timeline({
   scrollTrigger:{
