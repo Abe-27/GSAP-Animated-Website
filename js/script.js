@@ -72,7 +72,7 @@ var tl1 = gsap.timeline({
 tl1.to("#page1 > #face1 > #display > #display2 > img",{
     top:"200%",
     rotate:"10deg"
-}, "lorep")
+})
 
 // tl1.from("#page2 > #face2",{
 //   opacity:0,
